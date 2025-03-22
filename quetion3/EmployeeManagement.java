@@ -17,7 +17,6 @@ class Employee {
     }
 }
 
-public class EmployeeManagement {
     public static void main(String[] args) {
         Employee emp1 = new Employee(1, "sandhya bhosale", 50000);
         Employee emp2 = new Employee(2, "surekha sonawane", 60000);
@@ -32,4 +31,3 @@ public class EmployeeManagement {
             emp.displayDetails();
         }
     }
-}
